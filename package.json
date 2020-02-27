@@ -6,7 +6,8 @@
   "main": "src/js/main.js",
   "scripts": {
     "start": "webpack-dev-server --host localhost --port 3000",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "@babel/preset-env": "^7.8.6",
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
+    "jest": "^25.1.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
