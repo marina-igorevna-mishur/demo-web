@@ -1,1 +1,3 @@
-export default 'Hello world'
+export default {
+    getAppContent: () => 'Hello world'
+}
