@@ -4,7 +4,7 @@ import content from 'services/content'
 export default class App extends React.Component {
     render() {
         return (
-            <div>{content}</div>
+            <div id='content'>{content}</div>
         )
     }
 }
